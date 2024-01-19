@@ -8,3 +8,9 @@ En estos ejercicios del Máster GIS Online, impartido por Esri España, veremos 
 - Estilos con hoja externa (etiquetas y clases)
 - Estilos con atributos HTML
 - Estilos definidos en la cabecera del HTML principal
+
+### Ejercicio 2
+
+- Estructura base HTML solicitada por el enunciado
+- Trabajo con media queries hasta 600px de resolución
+- Fondos cambiantes y transiciones suaves
