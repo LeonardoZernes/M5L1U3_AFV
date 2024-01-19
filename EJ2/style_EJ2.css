@@ -1,0 +1,21 @@
+/* HOJA DE ESTILOS DEL EJERCICIO 2 - M5L1U3 */
+body {
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-weight: bold;
+}
+
+/* ESTILOS DEL PIE DE PÁGINA */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+}
