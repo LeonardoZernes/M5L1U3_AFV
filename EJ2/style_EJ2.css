@@ -1,10 +1,17 @@
 /* HOJA DE ESTILOS DEL EJERCICIO 2 - M5L1U3 */
 body {
-    background-color: lightgreen;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: brown;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 0px 10px;
 }
-h1 {
-    font-weight: bold;
+h2, ul {
+    /* Se añade un tiempo de transición para que el 
+    cambio de color no sea brusco */
+    transition: 0.3s;
 }
 
 /* ESTILOS DEL PIE DE PÁGINA */
@@ -18,4 +25,19 @@ h1 {
     background-color: grey;
     color: white;
     font-style: italic;
+}
+
+/* Definimos los media query para más de 600px fondo verde y 
+listado en fondo naranja */
+@media all and (min-width: 600px) {
+    h2 {
+        padding: 10px;
+        margin: 10px 0;
+        background-color: green;
+    }
+    ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: orange;
+    }
 }
