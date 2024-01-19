@@ -1,0 +1,51 @@
+/* HOJA DE ESTILOS DEL EJERCICIO 1 - M5L1U3 */
+body {
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.contenido {
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+/* Estilos para definir el menú lateral */
+.menu_lateral {
+    font-weight: bold;
+    background-color: brown;
+    /* Ampliamos el alto del menú a toda la región visible de la web */
+    height: 100vh;
+    /* Garantizamos que siempre mida al menos 225px de ancho */
+    min-width: 225px;
+    margin: 0;
+}
+.navegacion {
+    padding: 20px 20px 0 0;
+    margin-top: 0;
+    list-style: none;
+}
+.navegacion a {
+    text-decoration: none;
+    color: white;
+}
+.navegacion li:hover {
+    background-color: rgb(102, 26, 26);
+}
+.navegacion li {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+/* ESTILOS DEL PIE DE PÁGINA */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+}
