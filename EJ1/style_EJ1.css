@@ -1,0 +1,54 @@
+/* HOJA DE ESTILOS DEL EJERCICIO 1 - M5L1U3 */
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-weight: bold;
+}
+
+/* ESTILOS DEL PRIMER PÁRRAFO */
+.borde_puntos {
+    font-style: italic;
+    border: 2px dashed black;
+}
+
+/* FUNCIONALIDADES EXTRA */
+.borde_puntos > p:nth-child(1) {
+    margin: 10px;
+    text-align: justify;
+}
+.borde_puntos:hover {
+    border: 2px solid yellow;
+    transition: 0.3s;
+}
+#mensaje {
+    text-align: center;
+    font-style: normal;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+#mensaje:hover {
+    color: orange;
+    font-weight: bold;
+    transform: scale(1.05, 1.05);
+    background-color: brown;
+}
+
+/* ESTILOS DEL PIE DE PÁGINA */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+}
