@@ -33,6 +33,7 @@ En estos ejercicios del Máster GIS Online, impartido por Esri España, veremos 
 
 ### Ejercicio 3
 
+- Favicon del HTML en la pestaña del navegador
 - Menú lateral de navegación entre páginas web con listado y etiquetas "a"
 - Contenido adicional de relleno
 - Se establece el icono de pestaña como el de Esri España
@@ -47,6 +48,7 @@ En estos ejercicios del Máster GIS Online, impartido por Esri España, veremos 
 
 ### Ejercicio 4
 
+- Favicon del HTML en la pestaña del navegador
 - Se crea un formulario de contacto 
 - Se da entidad a la página web
 - Se añade una fuente externa desde el HTML (Ubuntu, Google Fonts)
