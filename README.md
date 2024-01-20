@@ -58,4 +58,4 @@ En estos ejercicios del Máster GIS Online, impartido por Esri España, veremos 
 
 ![image](https://github.com/LeonardoZernes/M5L1U3_AFV/assets/60662663/66d0f030-9050-4063-a233-4bcf85ba375f)
 
-***Figura 8**: El botón del formulario se resalta cuando es seleccionado como se solicitaba en el enunciado.*
+***Figura 8**: El botón del formulario se resalta y aumenta de tamaño cuando es seleccionado como se solicitaba en el enunciado.*
