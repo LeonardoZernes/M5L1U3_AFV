@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contacto</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/550/550894.png" type="image/x-icon">
+    <link rel="stylesheet" href="style_EJ4.css">
+    <!-- Importamos una fuente nueva de Google Fonts (código abierto) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu">
+</head>
+<body>
+    <!-- Definimos la cabezera con el título y la imagen de fondo -->
+    <div class="header">
+        <h1>Todo comienza aquí</h1>
+    </div>
+    <!-- Establecemos el contenedor del formulario para darle formato -->
+    <div class="contenedor">
+        <h2>Formulario de contacto</h2>
+        <!-- Abrimos el formulario y ponemos los distintos inputs -->
+        <form>
+            <div class="flex">
+                <div class="mitad">
+                    <label for="fname">Nombre:<b style="color: red">*</b></label><br>
+                    <input type="text" name="fname" id="fname" required>
+                </div>
+                <div class="mitad">
+                    <label for="fapellidos">Apellidos:<b style="color: red">*</b></label><br>
+                    <input type="text" name="fapellidos" id="fapellidos" required>
+                </div>
+            </div> 
+            <div class="flex">
+                <div class="completo">
+                    <label for="femail">Correo electrónico:<b style="color: red">*</b></label><br>
+                    <input type="email" name="femail" id="femail" required>  
+                </div>
+            </div>
+            <div class="flex">
+                <div class="completo">
+                    <label for="fcoments">Comentarios:</label><br>
+                    <textarea name="fcoments" id="fcoments"></textarea>
+                </div>
+            </div>
+            <div class="caja_boton">
+                <button>Enviar respuesta</button>
+            </div>
+        </form>      
+    </div>
+    <div class="footer">
+        © Adrián Fernández Vázquez, Máster GIS Online - 2024
+    </div>
+</body>
+</html>
